@@ -33,7 +33,7 @@ class TaskController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return Task::find($id);
     }
 
     /**
